@@ -157,3 +157,20 @@ function traverse(node) {
   traverse(node.right);
   return tree;
 }
+
+
+
+
+// Binary Heap
+//  --> every child belongs to a parent node that has a greater value - max Heap
+//  --> every child belongs to a parent node that has a smaller value - min Heap
+
+// -- Binary heaps are really good at doing comparative operations. Take up the least amount of space possible - do left to right insertion, preserving order of insertion.
+// Priority Queues - allow for "VIPs"
+
+// Trie --> specialized tree used in searching most often used with text
+  // --> can outperform binary search trees
+  // Starts with an empty root node and then goes from there
+  // Trie also known as prefix-tree
+  // big O of trie is O(length of word) === O(n)
+  // space complexity is also an advantage - only have to store a value once.
